@@ -175,3 +175,31 @@ a:visited {
     }
 
 }
+
+@media (max-width: 414px) {
+    .hat {
+        flex-direction: column;
+    }
+    .img {
+        text-align: center;
+    }
+    .form-row {
+        flex-direction: column;
+        }
+
+    .form-row .form-group {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+}
+
+@media (max-width: 540px) {
+    .hat {
+        flex-direction: column;
+    }
+    .img {
+        text-align: center;
+    }
+}
